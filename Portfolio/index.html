@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Portfolio</title>
+        <link rel="stylesheet" type="text/css" href="main.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <!-- font awesome will provide cool icons -->
+        <meta name="theme-color" content="#4285f4" />
+        <link rel="icon" href="adi.png" />
+        <script src="main.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+        <!-- <script src="viewportchecker.js"></script> -->
+    </head>
+    <body>
+    	<button class="color-change" onclick="myFunction('color-change')">&nbsp&nbsp&nbsp</button>
+        <button class="color-rechange" onclick="myFunction1('color-rechange')">&nbsp&nbsp&nbsp</button>
+        <div class="static">
+            <div class="logo">
+                <div id="custom">The Developer</div>
+                <a herf="#"><img src="adi1.png" id="mainlogo" alt="The Logo" /> </a>
+            </div>
+            <ul class="nav">
+                <li onclick="myFunc1()">
+                    <a href="#" id="hh" class="active"><span id="hideit"><i class="fa fa-home"></i></span><span id="hideitt">Home </span></a>
+                </li>
+                <li onclick="myFunc2()">
+                    <a href="#" id="aa" class="non-active"><span id="hideit"><i class="fa fa-user"></i></span> <span id="hideitt">About</span></a>
+                </li>
+                <li onclick="myFunc4()">
+                    <a href="#" id="cc" class="non-active"><span id="hideit"><i class="fa fa-certificate"></i></span><span id="hideitt">Certificates</span></a>
+                </li>
+                <li onclick="myFunc3()">
+                    <a href="#" id="pp" class="non-active"><span id="hideit"><i class="fa fa-comments"></i></span> <span id="hideitt">Contact</span></a>
+                </li>
+            </ul>
+        </div>
+        <div class="home">
+            <div id="p11">
+                <div class="some-text">
+
+                    <h3 class="hello">Hi, I'm <span class="name">ADITYA PRAKASH SINGH</span></h3>
+                    <h3>I'm a Web Developer, Full Time Learner located in Jabalpur</h3>
+
+                    <h4 class="aim">My Aim is to work hard with complete dedication and determination and contribute to the organization with my skills, at the same time working towards achieving success at a personal level.</h4>
+                    <div class="main-content">
+                        <div class="item button-jittery" style="--bg-color: #f1c40f;">
+                            <a href="adi1.png" download>
+                                <button>
+                                    My Resume <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+            <div id="p33">
+                <div class="some-cont">
+                    <button class="color-change" onclick="myFunction('color-change')">&nbsp&nbsp&nbsp</button>
+                    <div class="con"><h1>Contact Me</h1></div>
+                    <p class="fadeit">Want to work together, feel free to Message me.</p>
+                    <div class="fadeit">
+                        <i class="fa fa-location-arrow" aria-hidden="true"></i><span>&nbsp&nbspAddress</span>
+                        <div class="loc">: &nbsp Jablapur MP India</div>
+                    </div >
+                    <div class="fadeit">
+                        <i class="fa fa-envelope" aria-hidden="true"></i><span>&nbsp&nbspEmail</span>
+                        <div class="loc">: &nbsp 2302adityaprakash@gmail.com</div>
+                    </div>
+                    <div class="fadeit">
+                        <i class="fa fa-phone" aria-hidden="true"></i><span>&nbsp&nbspPhone</span>
+                        <div class="loc">: &nbsp +91&nbsp623270****</div>
+                    </div>
+                    <div class="fadeit">
+                        <i class="fa fa-location-arrow" aria-hidden="true"></i><span>&nbsp&nbspLanguage</span>
+                        <div class="loc">: &nbsp Hindi,&nbspEnglish</div>
+                    </div>
+                    <div class="fadeit">
+                        <i class="fa fa-book" aria-hidden="true"></i><span>&nbsp&nbspEducation</span>
+                        <div class="loc">: &nbsp Gyan Ganga Institute Of Technology And Sciences</div>
+                    </div>
+                    <p></p>
+                    <div>
+                        <a class="icons" href="https://www.linkedin.com/in/aditya-prakash-singh-a7895a251/" target="_blank">&nbsp<i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp</a>
+                        <a class="icons" href="tel:+91623270****" target="_blank">&nbsp<i class="fa fa-phone" aria-hidden="true"></i>&nbsp</a>
+                        <a class="icons" href="mailto:2302adityaprakash@gmail.com" target="_blank">&nbsp<i class="fa fa-envelope" aria-hidden="true"></i>&nbsp</a>
+                        <a class="icons" href="https://github.com/" target="_blank">&nbsp<i class="fa fa-github" aria-hidden="true"></i>&nbsp</a>
+                        <a class="icons" href="https://www.instagram.com/" target="_blank">&nbsp<i class="fa fa-instagram" aria-hidden="true"></i>&nbsp</a>
+                    </div>
+                </div>
+
+                <div class="main-content">
+                    <div class="item button-jittery" style="--bg-color: #f1c40f;">
+                        <a href="adi1.png" download>
+                            <button>
+                                My Resume <span class="btn-icon"><i class="fa fa-download"></i></span>
+                            </button>
+                        </a>
+                    </div>
+                </div>
+                <div class="tooltip" onclick="TChange()">Theme
+                    <span class="tooltiptext">Click to Customize theme</span>
+                </div>
+            </div>
+
+            <div id="p22">
+                <div class="some-abt">
+                    <button class="color-change" onclick="myFunction('color-change')">&nbsp&nbsp&nbsp</button>
+                    <div class="abt"><h1>About Me</h1></div>
+                    <div class="fadeit">
+                        <p>
+                            A passionate Full Stack Web Developer 🚀 having an experience of designing and building Web applications with HTML, CSS, JavaScript Nodejs and some other libraries .<br />
+                            <br />
+
+                            Want to work together in team to develop awesome applications .... <br />
+                            <a href="#" onclick="myFunc3()"> Contact Me<i class="fa fa-link" aria-hidden="true"></i></a>, I'm Available 24x7
+                        </p>
+                    </div>
+
+                    <div>
+                        <a class="links" href="https://www.hackerrank.com/adityaprakash5?hr_r=1" target="_blank">&nbsp&nbspHackerRank&nbsp&nbsp&nbsp</a>
+                        <a class="links" href="https://www.codechef.com/users/aditya5820m" target="_blank">&nbsp&nbspCodechef&nbsp&nbsp</a>
+                        <a class="links" href="https://leetcode.com/2302adityaprakash/" target="_blank">&nbsp&nbspLeetcode&nbsp&nbsp</a>
+                        <a class="links" href="https://github.com/" target="_blank">&nbsp<i class="fa fa-github" aria-hidden="true"></i>&nbsp</a>
+                        <a class="links" href="https://www.linkedin.com/in/aditya-prakash-singh-a7895a251/" target="_blank">&nbsp<i class="fa fa-linkedin" aria-hidden="true"></i>&nbsp</a>
+                    </div>
+                    <br />
+                    <div class="main-content">
+                        <div class="item button-jittery" style="--bg-color: #f1c40f;">
+                            <a href="adi1.png" download>
+                                <button>
+                                    My Resume <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                        <p></p>
+                    </div>
+                </div>
+                <div class="educ">
+                    <h3>Education</h3>
+                    <div class="coll">
+                        <div>
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            <h6 class="tt">&nbsp2020-2024</h6>
+                        </div>
+                        <div><p>CSE STUDENT - GYAN GANGA INSTITUTE OF TECHNOLOGY AND SCIENCES JABALPUR MP</p></div>
+                        <div>Bachelor of Technology in Computer Science Engineering with 8.6 CGPA.</div>
+                    </div>
+
+                    <div class="twel">
+                        <div>
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            <h6 class="tt">&nbsp2019-2020</h6>
+                        </div>
+                        <div><p>HIGH SCHOOL - KENDRIYA VIDYALAYA NO. 1 GCF JABALPUR MP</p></div>
+                        <div>Appeared for my 12th grade and secured 72.4%.</div>
+                    </div>
+
+                    <div class="tenth">
+                        <div>
+                            <i class="fa fa-briefcase" aria-hidden="true"></i>
+                            <h6 class="tt">&nbsp2017-2018</h6>
+                        </div>
+                        <div><p>MIDDLE SCHOOL - KENDRIYA VIDYALAYA NO. 1 GCF JABALPUR MP</p></div>
+                        <div>Appeared for my 10th grade and secured 72.2%.</div>
+                    </div>
+                </div>
+                <p></p>
+                <p></p>
+            </div>
+            <div id="p44">
+                <div class="some-cert">
+                    <button class="color-change" onclick="myFunction('color-change')">&nbsp&nbsp&nbsp</button>
+                    <div>
+                        <ul id="lc">
+                            <a href="	https://drive.google.com/file/d/17Z_eEoUs2b-KX2GB6JLDiei4j4tK_D4o/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Cisco C <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1Ra6ES6ul6LvdomgWpArwGnMCP8LlNZA6/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Cisco JS <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1_Yv2tRz2tIfVyfNxAUVuhnG6jJa1yTuh/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Cisco Python <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1LiA4egcNEL6E34pj2uTepBhOD8b9b3U1/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Codechef Code Heist 2021 <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1H4XMHPQRf2AC5p6nrJiwt6wn-uZnR4v_/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Alibaba Cloud <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1yCddpyvBVB-rEBu4MaznPP2StZ0R15BZ/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Codechef Snackdown 2021 <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1WE1jjcfJCcuzZ1IEUxES7gqazWOax7ah/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Coursera Basic Game <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1DC2WuyoMbaGVrRYNwZcH1YVG0_jkh6mh/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Coursera First App <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1cQg2Rh-f6waxqEqCif-eHN3ND8-ZqZaA/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Coursera Intro Program <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1M8v36BFzFvzxkIEJaBNl6g5Hr_H48P-_/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Devtown Backend Google <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1J8-XCJjN8IeMMsyqn4NxhRivZdcpaStD/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Devtown Backend Microsoft <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1y_pHcK8VCjIXNZoQ6h-7-ottGZVXvzi7/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Devtown Backend <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1iRFlIip7wnSrzJZvCnYdLi085goe8KS_/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Devtown Drive Frontend <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1Sc570hk0Ngh4oiFlqXmlZyse6G_CvEgF/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Devtown DSA Google <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/13aYqKbiZxDgkSnjJlOcs1MKHy3l1bW7T/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Devtown DSA Microsoft <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1mfz8sf2_wg_RdqgA9UOPzUBycjmwOHZt/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Devtown DSA <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1PaORJaRhVIksddiy2mJW8oGtxE7mGPEb/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Flipkart Grid 3.0 <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1FOPaGnKzyfglJU2aOGcfHGlKRLjpr-Ue/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Google Kick Start FG 2022 <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/12MM4h2Q6xBMhi3148Kx1c9mLpUmIn5Bd/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    HackerRank Python <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1dSmootKhb5T2L5NsxMA9jDBaMd5lWcAO/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    HackerRank SQL <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1ULiXznN5hDc9kPZzpr1rPgqXIGbeaDeQ/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    HackerRank Problem Solving <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1WjukalqGZcv8LYwkfF0MLFnRTCgIdAyW/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Indigo Quest <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1wIMIXgxAs-xsMB54fNfXDIiJlNBBYSwc/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Oracle JS <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1Ao9zBakWpUtuUdMXEYdcxi9KKiM_M6aB/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Uber Hacktag 2.0 Dare2Complete <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1T8NjgeB46J58QMql1_iHfSTkBZeSNwHQ/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Uber Hacktag 2.0 Unstop <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1ozK6HUbFt7mKIgXyfbqyySMsmOtu9y-p/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    UdemyWeb Development Masterclass <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <a href="	https://drive.google.com/file/d/1cpcZR-vJ6iaZyO9GoXzJ4V3nsdYhFWHt/view?usp=share_link	" download target="_blank">
+                                <li class="lii">
+                                    Webinar Session. <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </li>
+                            </a>
+                            <div class="many-more">and many more</div>
+                        </ul>
+                    </div>
+                    <div class="main-content">
+                        <div class="item button-jittery" style="--bg-color: #f1c40f;">
+                            <a href="adi1.png" download>
+                                <button>
+                                    My Resume <span class="btn-icon"><i class="fa fa-download"></i></span>
+                                </button>
+                            </a>
+                        </div>
+                    </div>
+                    <div><p></p></div>
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>
